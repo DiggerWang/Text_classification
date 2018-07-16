@@ -10,4 +10,6 @@ pip3 install nltk <br>
 >import nltk<br>
 >nltk.download()<br>
 然后选择download(D)<br>
-输入punkt即可
+输入punkt即可\
+
+RNN.py是用tensorflow实现的文本分类。主要用到了LSTM和GRU，同时还比较了两者的性能及准确率。
